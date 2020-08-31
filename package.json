@@ -1,0 +1,16 @@
+{
+  "name": "besafe",
+  "version": "1.0.0",
+  "description": "\"A app which tells the details about the covid19 Cases\"",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "author": "Aditya Shrivastav",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
