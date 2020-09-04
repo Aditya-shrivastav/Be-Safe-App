@@ -1,0 +1,45 @@
+.row-content{
+    min-height:400px;
+    border-bottom: 1px solid lightgray;
+}
+.footer{
+    min-height: 100px;
+    background: #D1C4E9;
+}
+.jumbotron{
+    background: url(../img/medi_bg.jpg);
+}
+.val{
+    color:white;
+    background:linear-gradient( rgba(153,0,204,0.8), rgba(255,51,153,0.8));
+    border-radius: 1em;
+    min-height: 350px;
+    min-width: 250px;
+    border:1px solid black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25pt;
+}
+#en{
+    border-bottom: 1px solid white;
+}
+#in{
+    opacity: 0.5;
+}
+.footer{
+    background: rgba(0,153,255,0.7);
+}
+
+a.fa {
+    font-size: 25px;
+    width:40px;
+    height:40px;
+    text-decoration: none;
+    background-color: rgba(255, 255, 255,0.3);
+    border-radius: 50%;
+    margin:10px 10px 5px 10px;
+}
+.modal-content {
+   background : url(../img/modal_bg.jpg);
+   font-family : Yanone;
+   font-size : 15pt;
+ }

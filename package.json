@@ -1,16 +1,26 @@
 {
   "name": "besafe",
   "version": "1.0.0",
-  "description": "\"A app which tells the details about the covid19 Cases\"",
-  "main": "index.js",
+  "description": "This is a web app for giving details about the covid19 cases of any place in the world",
+  "main": "server.js",
   "scripts": {
-    "start": "npm run lite",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "lite": "lite-server"
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aditya-shrivastav/Be-Safe-App.git"
   },
   "author": "Aditya Shrivastav",
   "license": "ISC",
-  "devDependencies": {
-    "lite-server": "^2.5.4"
+  "bugs": {
+    "url": "https://github.com/Aditya-shrivastav/Be-Safe-App/issues"
+  },
+  "homepage": "https://github.com/Aditya-shrivastav/Be-Safe-App#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "path": "^0.12.7"
   }
 }
